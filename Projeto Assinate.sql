@@ -1,3 +1,7 @@
+create database assinante;
+
+use assinante;
+
 create table assinante (
 cd_assinante int not null unique,
 nm_assiante varchar(100) not null,
